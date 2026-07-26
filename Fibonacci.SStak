@@ -1,8 +1,0 @@
-1 1 DUP +
-^^ dovrebbe venire ignorato! ^^
-DUP( 0 1 ) + SHOW
-DUP( 1 2 ) +
-DUP( 2 3 ) +
-DUP( 3 4 ) +
-DUP( 4 5 ) +
-DUP( 5 6 ) +
