@@ -1,0 +1,11 @@
+5 BASE REM ^^ la base e l'esponente vengono ricordati ^^
+4 ESPONENTE REM
+ESPONENTE LOAD BASE LOAD REP ** 
+
+^^
+vengono rimesse le variabili base e esponente e ripetute
+(base x esponente volte), lo stack è [5, 5, 5, 5] poi, col comando
+** tutti gli eementi vengono moltiplicati tra loro ([5, 5, 25], 
+[5, 125], [625]) 
+^^
+
