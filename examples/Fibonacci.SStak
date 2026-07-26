@@ -1,0 +1,7 @@
+1 1 DUP + ^^ Lo stack diventa [1, 1, 1] e poi [1, 2] a causa del "+" ^^
+DUP( 0 1 ) + SHOW ^^ L'1 ed il 2 vengono duplicati e poi sommati, [1, 2, 3] ^^
+DUP( 1 2 ) + ^^ Il 2 ed il 3 vengono duplicati e poi sommati, [1, 2, 3, 5] ^^
+DUP( 2 3 ) + ^^ E così via... ^^
+DUP( 3 4 ) +
+DUP( 4 5 ) +
+DUP( 5 6 ) +
