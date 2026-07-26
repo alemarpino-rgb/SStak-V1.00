@@ -6,14 +6,14 @@ basato su stack e notazione inversa polacca. Ha una sintassi molto semplice e ba
 La versione più recente di python installata.
 ### Esecuzione:
 Per avviare un qualsiasi programma SStak (se all'interno della cartella examples)
-'''bash
+```bash
 .\run examples/nome_file.SStak
-'''
+```
 ## Sintassi del linguaggio
 
 Ecco un piccolo esempio di codice in SStak:
 
-'''text
+```text
 1 1 DUP +
 DUP( 0 1 ) + SHOW
 DUP( 1 2 ) +
@@ -21,11 +21,11 @@ DUP( 2 3 ) +
 DUP( 3 4 ) +
 DUP( 4 5 ) +
 DUP( 5 6 ) +
-'''
-'''output
+```
+```output
 1, 2, 3,
 stack = [1, 2, 3, 5, 8, 13, 21, 34]
-'''
+```
 ### Come funziona SStak?
 SStak, come si intuisce dal nome è un linguaggio basatosullo stack. Per chi non lo sapesse, lo stack è una lista in cui si aggiungono (push) elementi e si eliminano (pop) elementi.
 ### Comandi base:
