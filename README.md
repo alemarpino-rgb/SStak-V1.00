@@ -68,4 +68,4 @@ Se utilizzi, modifichi o redistribuisci questo codice:
 * **Non puoi** ripubblicare il progetto o parti di esso spacciandole per tue.
 * **Puoi** modificarlo, integrarlo ed estenderlo liberamente.
 
-Consulta il file [LICENSE](LICENSE) per i dettagli completi della licenza.
+Consulta il file [LICENSE.txt](LICENSE.txt) per i dettagli completi della licenza.
