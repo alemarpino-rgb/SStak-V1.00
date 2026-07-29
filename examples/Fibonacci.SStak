@@ -1,0 +1,9 @@
+4 1 REP +
+^^ viene ignorato! ^^
+DUP( 1 2 ) +
+DUP( 2 3 ) +
+DUP( 3 4 ) +
+DUP( 4 5 ) +
+DUP( 5 6 ) +
+DUP( 6 7 ) +
+: La sequenza di Fibonacci è: : SHOW

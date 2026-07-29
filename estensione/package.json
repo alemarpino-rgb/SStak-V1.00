@@ -1,0 +1,36 @@
+{
+  "name": "sstak",
+  "displayName": "SStak",
+  "description": "Language support for SStak",
+  "version": "0.0.1",
+  "publisher": "ale-marpino",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "sstak",
+      "aliases": ["SStak", "sstak"],
+      "extensions": [".SStak"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "sstak",
+      "scopeName": "source.sstak",
+      "path": "./syntaxes/sstak.tmLanguage.json"
+    }],
+    "snippets": [{
+        "language": "sstak",
+        "path": "./snippets/sstak.json"
+      }]
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+5 BASE REM ^^ la base e l'esponente vengono ricordati ^^
+4 ESPONENTE REM
+
+ESPONENTE LOAD BASE LOAD 
+
+: Stack[ 1 ] alla Stack[ 0 ] fa... : 
+
+REP ** 
+
+:  Stack[ 0 ] !! £ : DELALL : £ :
+:? Metti la base: ?:
+:? Metti l'esponente:  ?: ^^ Il massimo che riesce a calcolare è 1370 ^ 1370 ^^ :
+PICK( 0 )
+: Stack[ 1 ] alla Stack[ 0 ] fa... : REP ** : Stack[ 0 ] !! :
+
+
+^^
+vengono rimesse le variabili base e esponente e ripetute
+(base x esponente volte), lo stack è [5, 5, 5, 5] poi, col comando
+** tutti gli eementi vengono moltiplicati tra loro ([5, 5, 25], 
+[5, 125], [625]) 
+^^
+
